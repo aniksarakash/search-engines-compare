@@ -264,22 +264,22 @@ textarea {
 }
 
 /* A */
-.green { 
+.a-rating {
 	background-color: green;
 }
 /* B */
-.yellow {
-	background-color: yellow;
+.b-rating {
+	background-color: yellowgreen;
 }
 /* C */
-.orange {
+.c-rating {
 	background-color: orange;
 }
 /* D */
-.tomato {
+.d-rating {
 	background-color: tomato;
 }
 /* F */
-.red {
+.f-rating {
 	background-color: red;
 }
