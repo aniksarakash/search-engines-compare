@@ -299,3 +299,27 @@ td a {
 	width: 25px;
 	height: 25px;
 }
+
+table {
+	padding: 25px;
+	margin-bottom: -25px;
+	border-spacing: 2px;
+}
+
+table th {
+	font-weight: bold;
+	background-color: rgb(24, 24, 22);
+	border-collapse: separate;
+}
+
+table td {
+	background-color: rgb(34, 34, 32);
+}
+
+.source-code-link {
+	padding-left: 25px;
+}
+
+th, td {
+	padding: 15px;
+}
