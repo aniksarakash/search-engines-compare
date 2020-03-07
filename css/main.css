@@ -264,6 +264,10 @@ textarea {
 	}
 }
 
+.text-rating {
+	color: #040405;
+}
+
 .a-rating {
 	background-color: #1FAB4A;
 }
