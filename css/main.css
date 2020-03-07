@@ -264,25 +264,24 @@ textarea {
 	}
 }
 
-
 .a-rating {
-	background-color: green;
+	background-color: #1FAB4A;
 }
 
 .b-rating {
-	background-color: yellowgreen;
+	background-color: #9ACD32;
 }
 
 .c-rating {
-	background-color: orange;
+	background-color: #F1C83E;
 }
 
 .d-rating {
-	background-color: tomato;
+	background-color: #F3753F;
 }
 
 .f-rating {
-	background-color: firebrick;
+	background-color: #EE1B2E;
 }
 
 * {
