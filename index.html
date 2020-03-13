@@ -53,7 +53,7 @@
 			<th id="header-since">Since</th>
 			<th id="header-type">Type</th>
 			<th id="header-jurisdiction">Jurisdiction</th>
-			<th id="header-eyes"><a href="https://en.wikipedia.org/wiki/Five_Eyes" target="_blank" rel="external noopener noreferrer">Eyes</th>
+			<th id="header-eyes"><a href="https://en.wikipedia.org/wiki/Five_Eyes" target="_blank" rel="external noopener noreferrer">Eyes</a></th>
 			<th id="header-ssllabs"><a href="https://www.ssllabs.com/ssltest/" target="_blank" rel="external noopener noreferrer">SSL Labs Grade</a></th>
 			<th id="header-observatory"><a href="https://observatory.mozilla.org/" target="_blank" rel="external noopener noreferrer">Mozilla Observatory Grade</a></th>
 			<th id="header-ip-logging">IP Address Logging</th>
@@ -62,6 +62,7 @@
 			<th id="header-post-request">POST Request Support</th>
 			<th id="header-dnssec">DNSSEC</th>
 			<th id="header-ipv6">IPv6</th>
+			<th id="header-hsts"><a href="https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security" target="_blank" rel="external noopener noreferrer">HSTS</a></th>
 			<th id="header-disabled-js">Disabled JS Support</th>
 			<th id="header-onion-captchas">Onion Routing CAPTCHAs</th>
 			<th id="header-filters-adult-content">Filters Adult Content</th>
@@ -81,6 +82,7 @@
 			<td id="post-request-duckduckgo" class="a-rating text-rating">Y</td>
 			<td id="dnssec-duckduckgo" class="f-rating text-rating">N</td>
 			<td id="ipv6-duckduckgo" class="f-rating text-rating">N</td>
+			<td id="hsts-duckduckgo" class="a-rating text-rating">Y</td>
 			<td id="disabled-js-duckduckgo" class="a-rating text-rating">Y</td>
 			<td id="duckduckgo-onion-captchas" class="a-rating text-rating">N</td>
 			<td id="duckduckgo-filters-adult-content" class="a-rating text-rating">N</td>
@@ -100,6 +102,7 @@
 			<td id="post-request-startpage" class="a-rating text-rating">Y</td>
 			<td id="dnssec-startpage" class="a-rating text-rating">Y</td>
 			<td id="ipv6-startpage" class="f-rating text-rating">N</td>
+			<td id="hsts-startpage" class="a-rating text-rating">Y</td>
 			<td id="disabled-js-startpage" class="a-rating text-rating">Y</td>
 			<td id="startpage-onion-captchas" class="a-rating text-rating">N</td>
 			<td id="startpage-filters-adult-content" class="a-rating text-rating">N</td>
@@ -119,6 +122,7 @@
 			<td id="post-request-qwant" class="f-rating text-rating">N</td>
 			<td id="dnssec-qwant" class="a-rating text-rating">Y</td>
 			<td id="ipv6-qwant" class="f-rating text-rating">N</td>
+			<td id="hsts-qwant" class="a-rating text-rating">Y</td>
 			<td id="disabled-js-qwant" class="a-rating text-rating">Y</td>
 			<td id="qwant-onion-captchas" class="f-rating text-rating">Y</td>
 			<td id="qwant-filters-adult-content" class="a-rating text-rating">N</td>
@@ -138,6 +142,7 @@
 			<td id="post-request-swisscows" class="f-rating text-rating">N</td>
 			<td id="dnssec-swisscows" class="f-rating text-rating">N</td>
 			<td id="ipv6-swisscows" class="f-rating text-rating">N</td>
+			<td id="hsts-swisscows" class="a-rating text-rating">Y</td>
 			<td id="disabled-js-swisscows" class="f-rating text-rating">N</td>
 			<td id="swisscows-onion-captchas" class="a-rating text-rating">N</td>
 			<td id="swisscows-filters-adult-content" class="f-rating text-rating">Y</td>
@@ -157,7 +162,8 @@
 			<td id="post-request-cliqz" class="f-rating text-rating">N</td>
 			<td id="dnssec-cliqz" class="f-rating text-rating">N</td>
 			<td id="ipv6-cliqz" class="f-rating text-rating">N</td>
-			<td id="disabled-js-cliqz" class="a-rating text-rating">Y</td>
+			<td id="hsts-cliqz" class="a-rating text-rating">Y</td>
+			<td id="disabled-js-cliqz" class="f-rating text-rating">N</td>
 			<td id="cliqz-onion-captchas" class="a-rating text-rating">N</td>
 			<td id="cliqz-filters-adult-content" class="a-rating text-rating">N</td>
 			<td id="cliqz-proxy-service" class="f-rating text-rating">N</td>
@@ -176,6 +182,7 @@
 			<td id="post-request-metager" class="f-rating text-rating">N</td>
 			<td id="dnssec-metager" class="f-rating text-rating">N</td>
 			<td id="ipv6-metager" class="a-rating text-rating">Y</td>
+			<td id="hsts-metager" class="a-rating text-rating">Y</td>
 			<td id="disabled-js-metager" class="a-rating text-rating">Y</td>
 			<td id="metager-onion-captchas" class="a-rating text-rating">N</td>
 			<td id="metager-filters-adult-content" class="a-rating text-rating">N</td>
@@ -195,6 +202,7 @@
 			<td id="post-request-mojeek" class="f-rating text-rating">N</td>
 			<td id="dnssec-mojeek" class="f-rating text-rating">N</td>
 			<td id="ipv6-mojeek" class="f-rating text-rating">N</td>
+			<td id="hsts-mojeek" class="f-rating text-rating">N</td>
 			<td id="disabled-js-mojeek" class="a-rating text-rating">Y</td>
 			<td id="mojeek-onion-captchas" class="a-rating text-rating">N</td>
 			<td id="mojeek-filters-adult-content" class="a-rating text-rating">N</td>
@@ -214,6 +222,7 @@
 			<td id="post-request-privacytools" class="a-rating text-rating">Y</td>
 			<td id="dnssec-privacytools" class="a-rating text-rating">Y</td>
 			<td id="ipv6-privacytools" class="f-rating text-rating">N</td>
+			<td id="hsts-privacytools" class="a-rating text-rating">Y</td>
 			<td id="disabled-js-privacytools" class="a-rating text-rating">Y</td>
 			<td id="privacytools-onion-captchas" class="a-rating text-rating">N</td>
 			<td id="privacytools-filters-adult-content" class="a-rating text-rating">N</td>
@@ -233,6 +242,7 @@
 			<td id="post-request-snopyta" class="a-rating text-rating">Y</td>
 			<td id="dnssec-snopyta" class="a-rating text-rating">Y</td>
 			<td id="ipv6-snopyta" class="a-rating text-rating">Y</td>
+			<td id="hsts-snopyta" class="a-rating text-rating">Y</td>
 			<td id="disabled-js-snopyta" class="a-rating text-rating">Y</td>
 			<td id="snopyta-onion-captchas" class="a-rating text-rating">N</td>
 			<td id="snopyta-filters-adult-content" class="a-rating text-rating">N</td>
@@ -252,6 +262,7 @@
 			<td id="post-request-disroot" class="a-rating text-rating">Y</td>
 			<td id="dnssec-disroot" class="a-rating text-rating">Y</td>
 			<td id="ipv6-disroot" class="f-rating text-rating">N</td>
+			<td id="hsts-disroot" class="a-rating text-rating">Y</td>
 			<td id="disabled-js-disroot" class="a-rating text-rating">Y</td>
 			<td id="disroot-onion-captchas" class="a-rating text-rating">N</td>
 			<td id="disroot-filters-adult-content" class="a-rating text-rating">N</td>
@@ -271,6 +282,7 @@
 			<td id="post-request-lelux.fi" class="a-rating text-rating">Y</td>
 			<td id="dnssec-lelux.fi" class="a-rating text-rating">Y</td>
 			<td id="ipv6-lelux.fi" class="a-rating text-rating">Y</td>
+			<td id="hsts-lelux.fi" class="a-rating text-rating">Y</td>
 			<td id="disabled-js-lelux.fi" class="a-rating text-rating">Y</td>
 			<td id="lelux.fi-onion-captchas" class="a-rating text-rating">N</td>
 			<td id="lelux.fi-filters-adult-content" class="a-rating text-rating">N</td>
@@ -290,6 +302,7 @@
 			<td id="post-request-seznam" class="f-rating text-rating">N</td>
 			<td id="dnssec-seznam" class="a-rating text-rating">Y</td>
 			<td id="ipv6-seznam" class="a-rating text-rating">Y</td>
+			<td id="hsts-seznam" class="f-rating text-rating">N</td>
 			<td id="disabled-js-seznam" class="a-rating text-rating">Y</td>
 			<td id="seznam-onion-captchas" class="a-rating text-rating">N</td>
 			<td id="seznam-filters-adult-content" class="a-rating text-rating">N</td>
@@ -309,6 +322,7 @@
 			<td id="post-request-oscobo" class="f-rating text-rating">N</td>
 			<td id="dnssec-oscobo" class="f-rating text-rating">N</td>
 			<td id="ipv6-oscobo" class="f-rating text-rating">N</td>
+			<td id="hsts-oscobo" class="a-rating text-rating">N</td>
 			<td id="disabled-js-oscobo" class="a-rating text-rating">Y</td>
 			<td id="oscobo-onion-captchas" class="a-rating text-rating">N</td>
 			<td id="oscobo-filters-adult-content" class="a-rating text-rating">N</td>
@@ -328,6 +342,7 @@
 			<td id="post-request-peekier" class="f-rating text-rating">N</td>
 			<td id="dnssec-peekier" class="f-rating text-rating">N</td>
 			<td id="ipv6-peekier" class="a-rating text-rating">Y</td>
+			<td id="hsts-peekier" class="a-rating text-rating">Y</td>
 			<td id="disabled-js-peekier" class="f-rating text-rating">N</td>
 			<td id="peekier-onion-captchas" class="a-rating text-rating">N</td>
 			<td id="peekier-filters-adult-content" class="a-rating text-rating">N</td>
@@ -347,6 +362,7 @@
 			<td id="post-request-whaleslide" class="f-rating text-rating">N</td>
 			<td id="dnssec-whaleslide" class="f-rating text-rating">N</td>
 			<td id="ipv6-whaleslide" class="f-rating text-rating">N</td>
+			<td id="hsts-whaleslide" class="f-rating text-rating">N</td>
 			<td id="disabled-js-whaleslide" class="f-rating text-rating">N</td>
 			<td id="whaleslide-onion-captchas" class="a-rating text-rating">N</td>
 			<td id="whaleslide-filters-adult-content" class="a-rating text-rating">N</td>
@@ -366,6 +382,7 @@
 			<td id="post-request-ekoru" class="f-rating text-rating">N</td>
 			<td id="dnssec-ekoru" class="f-rating text-rating">N</td>
 			<td id="ipv6-ekoru" class="a-rating text-rating">Y</td>
+			<td id="hsts-ekoru" class="a-rating text-rating">Y</td>
 			<td id="disabled-js-ekoru" class="a-rating text-rating">Y</td>
 			<td id="ekoru-onion-captchas" class="a-rating text-rating">N</td>
 			<td id="ekoru-filters-adult-content" class="a-rating text-rating">N</td>
@@ -385,6 +402,7 @@
 			<td id="post-request-ecosia" class="f-rating text-rating">N</td>
 			<td id="dnssec-ecosia" class="f-rating text-rating">N</td>
 			<td id="ipv6-ecosia" class="f-rating text-rating">N</td>
+			<td id="hsts-ecosia" class="a-rating text-rating">Y</td>
 			<td id="disabled-js-ecosia" class="a-rating text-rating">Y</td>
 			<td id="ecosia-onion-captchas" class="f-rating text-rating">Y</td>
 			<td id="ecosia-filters-adult-content" class="a-rating text-rating">N</td>
@@ -404,6 +422,7 @@
 			<td id="post-request-private.sh" class="a-rating text-rating">Y</td>
 			<td id="dnssec-private.sh" class="f-rating text-rating">N</td>
 			<td id="ipv6-private.sh" class="f-rating text-rating">N</td>
+			<td id="hsts-private.sh" class="f-rating text-rating">N</td>
 			<td id="disabled-js-private.sh" class="f-rating text-rating">N</td>
 			<td id="private.sh-onion-captchas" class="a-rating text-rating">N</td>
 			<td id="private.sh-filters-adult-content" class="a-rating text-rating">N</td>
@@ -423,6 +442,7 @@
 			<td id="post-request-privado" class="f-rating text-rating">N</td>
 			<td id="dnssec-privado" class="f-rating text-rating">N</td>
 			<td id="ipv6-privado" class="a-rating text-rating">Y</td>
+			<td id="hsts-privado" class="f-rating text-rating">N</td>
 			<td id="disabled-js-privado" class="f-rating text-rating">N</td>
 			<td id="privado-onion-captchas" class="a-rating text-rating">N</td>
 			<td id="privado-filters-adult-content" class="a-rating text-rating">N</td>
@@ -442,6 +462,7 @@
 			<td id="post-request-findx" class="f-rating text-rating">N</td>
 			<td id="dnssec-findx" class="f-rating text-rating">N</td>
 			<td id="ipv6-findx" class="f-rating text-rating">N</td>
+			<td id="hsts-findx" class="f-rating text-rating">N</td>
 			<td id="disabled-js-findx" class="a-rating text-rating">Y</td>
 			<td id="findx-onion-captchas" class="a-rating text-rating">N</td>
 			<td id="findx-filters-adult-content" class="a-rating text-rating">N</td>
@@ -461,6 +482,7 @@
 			<td id="post-request-gigablast" class="f-rating text-rating">N</td>
 			<td id="dnssec-gigablast" class="f-rating text-rating">N</td>
 			<td id="ipv6-gigablast" class="f-rating text-rating">N</td>
+			<td id="hsts-gigablast" class="f-rating text-rating">N</td>
 			<td id="disabled-js-gigablast" class="f-rating text-rating">N</td>
 			<td id="gigablast-onion-captchas" class="a-rating text-rating">N</td>
 			<td id="gigablast-filters-adult-content" class="a-rating text-rating">N</td>
@@ -480,6 +502,7 @@
 			<td id="post-request-privacywall" class="f-rating text-rating">N</td>
 			<td id="dnssec-privacywall" class="f-rating text-rating">N</td>
 			<td id="ipv6-privacywall" class="f-rating text-rating">N</td>
+			<td id="hsts-privacywall" class="f-rating text-rating">N</td>
 			<td id="disabled-js-privacywall" class="a-rating text-rating">Y</td>
 			<td id="privacywall-onion-captchas" class="a-rating text-rating">N</td>
 			<td id="privacywall-filters-adult-content" class="a-rating text-rating">N</td>
@@ -499,6 +522,7 @@
 			<td id="post-request-yippy" class="f-rating text-rating">N</td>
 			<td id="dnssec-yippy" class="f-rating text-rating">N</td>
 			<td id="ipv6-yippy" class="f-rating text-rating">N</td>
+			<td id="hsts-yippy" class="f-rating text-rating">N</td>
 			<td id="disabled-js-yippy" class="a-rating text-rating">Y</td>
 			<td id="yippy-onion-captchas" class="a-rating text-rating">N</td>
 			<td id="yippy-filters-adult-content" class="a-rating text-rating">N</td>
@@ -518,6 +542,7 @@
 			<td id="post-request-givero" class="f-rating text-rating">N</td>
 			<td id="dnssec-givero" class="f-rating text-rating">N</td>
 			<td id="ipv6-givero" class="f-rating text-rating">N</td>
+			<td id="hsts-givero" class="f-rating text-rating">N</td>
 			<td id="disabled-js-givero" class="a-rating text-rating">Y</td>
 			<td id="givero-onion-captchas" class="a-rating text-rating">N</td>
 			<td id="givero-filters-adult-content" class="a-rating text-rating">N</td>
@@ -537,6 +562,7 @@
 			<td id="post-request-bing" class="f-rating text-rating">N</td>
 			<td id="dnssec-bing" class="f-rating text-rating">N</td>
 			<td id="ipv6-bing" class="a-rating text-rating">Y</td>
+			<td id="hsts-bing" class="a-rating text-rating">Y</td>
 			<td id="disabled-js-bing" class="a-rating text-rating">Y</td>
 			<td id="bing-onion-captchas" class="a-rating text-rating">N</td>
 			<td id="bing-filters-adult-content" class="a-rating text-rating">N</td>
@@ -556,6 +582,7 @@
 			<td id="post-request-gibiru" class="f-rating text-rating">N</td>
 			<td id="dnssec-gibiru" class="f-rating text-rating">N</td>
 			<td id="ipv6-gibiru" class="f-rating text-rating">N</td>
+			<td id="hsts-gibiru" class="f-rating text-rating">N</td>
 			<td id="disabled-js-gibiru" class="f-rating text-rating">N</td>
 			<td id="gibiru-onion-captchas" class="a-rating text-rating">N</td>
 			<td id="gibiru-filters-adult-content" class="a-rating text-rating">N</td>
@@ -575,6 +602,7 @@
 			<td id="post-request-yahoo" class="f-rating text-rating">N</td>
 			<td id="dnssec-yahoo" class="f-rating text-rating">N</td>
 			<td id="ipv6-yahoo" class="a-rating text-rating">Y</td>
+			<td id="hsts-yahoo" class="a-rating text-rating">Y</td>
 			<td id="disabled-js-yahoo" class="a-rating text-rating">Y</td>
 			<td id="yahoo-onion-captchas" class="a-rating text-rating">N</td>
 			<td id="yahoo-filters-adult-content" class="a-rating text-rating">N</td>
@@ -594,6 +622,7 @@
 			<td id="post-request-ask" class="f-rating text-rating">N</td>
 			<td id="dnssec-ask" class="f-rating text-rating">N</td>
 			<td id="ipv6-ask" class="f-rating text-rating">N</td>
+			<td id="hsts-ask" class="f-rating text-rating">N</td>
 			<td id="disabled-js-ask" class="a-rating text-rating">Y</td>
 			<td id="ask-onion-captchas" class="a-rating text-rating">N</td>
 			<td id="ask-filters-adult-content" class="a-rating text-rating">N</td>
@@ -613,6 +642,7 @@
 			<td id="post-request-yandex" class="f-rating text-rating">N</td>
 			<td id="dnssec-yandex" class="a-rating text-rating">Y</td>
 			<td id="ipv6-yandex" class="a-rating text-rating">Y</td>
+			<td id="hsts-yandex" class="f-rating text-rating">N</td>
 			<td id="disabled-js-yandex" class="a-rating text-rating">Y</td>
 			<td id="yandex-onion-captchas" class="f-rating text-rating">Y</td>
 			<td id="yandex-filters-adult-content" class="a-rating text-rating">N</td>
@@ -632,6 +662,7 @@
 			<td id="post-request-aol" class="f-rating text-rating">N</td>
 			<td id="dnssec-aol" class="f-rating text-rating">N</td>
 			<td id="ipv6-aol" class="a-rating text-rating">Y</td>
+			<td id="hsts-aol" class="a-rating text-rating">Y</td>
 			<td id="disabled-js-aol" class="a-rating text-rating">Y</td>
 			<td id="aol-onion-captchas" class="a-rating text-rating">N</td>
 			<td id="aol-filters-adult-content" class="a-rating text-rating">N</td>
@@ -651,6 +682,7 @@
 			<td id="post-request-google" class="f-rating text-rating">N</td>
 			<td id="dnssec-google" class="f-rating text-rating">N</td>
 			<td id="ipv6-google" class="a-rating text-rating">Y</td>
+			<td id="hsts-google" class="a-rating text-rating">Y</td>
 			<td id="disabled-js-google" class="a-rating text-rating">Y</td>
 			<td id="google-onion-captchas" class="f-rating text-rating">Y</td>
 			<td id="google-filters-adult-content" class="a-rating text-rating">N</td>
@@ -670,6 +702,7 @@
 			<td id="post-request-youcare" class="f-rating text-rating">N</td>
 			<td id="dnssec-youcare" class="f-rating text-rating">N</td>
 			<td id="ipv6-youcare" class="f-rating text-rating">N</td>
+			<td id="hsts-youcare" class="a-rating text-rating">Y</td>
 			<td id="disabled-js-youcare" class="f-rating text-rating">N</td>
 			<td id="youcare-onion-captchas" class="a-rating text-rating">N</td>
 			<td id="youcare-filters-adult-content" class="a-rating text-rating">N</td>
@@ -689,6 +722,7 @@
 			<td id="post-request-oceanhero" class="f-rating text-rating">N</td>
 			<td id="dnssec-oceanhero" class="f-rating text-rating">N</td>
 			<td id="ipv6-oceanhero" class="f-rating text-rating">N</td>
+			<td id="hsts-oceanhero" class="a-rating text-rating">Y</td>
 			<td id="disabled-js-oceanhero" class="f-rating text-rating">N</td>
 			<td id="oceanhero-onion-captchas" class="a-rating text-rating">N</td>
 			<td id="oceanhero-filters-adult-content" class="a-rating text-rating">N</td>
@@ -708,6 +742,7 @@
 			<td id="post-request-lycos" class="f-rating text-rating">N</td>
 			<td id="dnssec-lycos" class="f-rating text-rating">N</td>
 			<td id="ipv6-lycos" class="f-rating text-rating">N</td>
+			<td id="hsts-lycos" class="f-rating text-rating">N</td>
 			<td id="disabled-js-lycos" class="a-rating text-rating">Y</td>
 			<td id="lycos-onion-captchas" class="a-rating text-rating">N</td>
 			<td id="lycos-filters-adult-content" class="a-rating text-rating">N</td>
@@ -727,6 +762,7 @@
 			<td id="post-request-dogpile" class="f-rating text-rating">N</td>
 			<td id="dnssec-dogpile" class="f-rating text-rating">N</td>
 			<td id="ipv6-dogpile" class="f-rating text-rating">N</td>
+			<td id="hsts-dogpile" class="f-rating text-rating">N</td>
 			<td id="disabled-js-dogpile" class="a-rating text-rating">Y</td>
 			<td id="dogpile-onion-captchas" class="f-rating text-rating">Y</td>
 			<td id="dogpile-filters-adult-content" class="a-rating text-rating">N</td>
@@ -746,6 +782,7 @@
 			<td id="post-request-info" class="f-rating text-rating">N</td>
 			<td id="dnssec-info" class="f-rating text-rating">N</td>
 			<td id="ipv6-info" class="f-rating text-rating">N</td>
+			<td id="hsts-info" class="f-rating text-rating">N</td>
 			<td id="disabled-js-info" class="a-rating text-rating">Y</td>
 			<td id="info-onion-captchas" class="f-rating text-rating">Y</td>
 			<td id="info-filters-adult-content" class="a-rating text-rating">N</td>
@@ -765,6 +802,7 @@
 			<td id="post-request-webcrawler" class="f-rating text-rating">N</td>
 			<td id="dnssec-webcrawler" class="f-rating text-rating">N</td>
 			<td id="ipv6-webcrawler" class="f-rating text-rating">N</td>
+			<td id="hsts-webcrawler" class="f-rating text-rating">N</td>
 			<td id="disabled-js-webcrawler" class="a-rating text-rating">Y</td>
 			<td id="webcrawler-onion-captchas" class="f-rating text-rating">Y</td>
 			<td id="webcrawler-filters-adult-content" class="a-rating text-rating">N</td>
@@ -784,6 +822,7 @@
 			<td id="post-request-metacrawler" class="f-rating text-rating">N</td>
 			<td id="dnssec-metacrawler" class="f-rating text-rating">N</td>
 			<td id="ipv6-metacrawler" class="f-rating text-rating">N</td>
+			<td id="hsts-metacrawler" class="f-rating text-rating">N</td>
 			<td id="disabled-js-metacrawler" class="a-rating text-rating">Y</td>
 			<td id="metacrawler-onion-captchas" class="f-rating text-rating">Y</td>
 			<td id="metacrawler-filters-adult-content" class="a-rating text-rating">N</td>
@@ -803,6 +842,7 @@
 			<td id="post-request-excite" class="f-rating text-rating">N</td>
 			<td id="dnssec-excite" class="f-rating text-rating">N</td>
 			<td id="ipv6-excite" class="f-rating text-rating">N</td>
+			<td id="hsts-excite" class="f-rating text-rating">N</td>
 			<td id="disabled-js-excite" class="a-rating text-rating">Y</td>
 			<td id="excite-onion-captchas" class="f-rating text-rating">Y</td>
 			<td id="excite-filters-adult-content" class="a-rating text-rating">N</td>
@@ -822,6 +862,7 @@
 			<td id="post-request-search.com" class="f-rating text-rating">N</td>
 			<td id="dnssec-search.com" class="f-rating text-rating">N</td>
 			<td id="ipv6-search.com" class="f-rating text-rating">N</td>
+			<td id="hsts-search.com" class="f-rating text-rating">N</td>
 			<td id="disabled-js-search.com" class="a-rating text-rating">Y</td>
 			<td id="search.com-onion-captchas" class="a-rating text-rating">N</td>
 			<td id="search.com-filters-adult-content" class="f-rating text-rating">Y</td>
@@ -841,6 +882,7 @@
 			<td id="post-request-gmx" class="f-rating text-rating">N</td>
 			<td id="dnssec-gmx" class="f-rating text-rating">N</td>
 			<td id="ipv6-gmx" class="f-rating text-rating">N</td>
+			<td id="hsts-gmx" class="a-rating text-rating">Y</td>
 			<td id="disabled-js-gmx" class="f-rating text-rating">N</td>
 			<td id="gmx-onion-captchas" class="a-rating text-rating">N</td>
 			<td id="gmx-filters-adult-content" class="a-rating text-rating">N</td>
@@ -860,6 +902,7 @@
 			<td id="post-request-baidu" class="f-rating text-rating">N</td>
 			<td id="dnssec-baidu" class="f-rating text-rating">N</td>
 			<td id="ipv6-baidu" class="f-rating text-rating">N</td>
+			<td id="hsts-baidu" class="f-rating text-rating">N</td>
 			<td id="disabled-js-baidu" class="a-rating text-rating">Y</td>
 			<td id="baidu-onion-captchas" class="a-rating text-rating">N</td>
 			<td id="baidu-filters-adult-content" class="f-rating text-rating">Y</td>
@@ -879,6 +922,7 @@
 			<td id="post-request-lukol" class="f-rating text-rating">N</td>
 			<td id="dnssec-lukol" class="f-rating text-rating">N</td>
 			<td id="ipv6-lukol" class="a-rating text-rating">Y</td>
+			<td id="hsts-lukol" class="f-rating text-rating">N</td>
 			<td id="disabled-js-lukol" class="f-rating text-rating">N</td>
 			<td id="lukol-onion-captchas" class="a-rating text-rating">N</td>
 			<td id="lukol-filters-adult-content" class="a-rating text-rating">N</td>
@@ -898,6 +942,7 @@
 			<td id="post-request-searchencrypt" class="a-rating text-rating">Y</td>
 			<td id="dnssec-searchencrypt" class="f-rating text-rating">N</td>
 			<td id="ipv6-searchencrypt" class="f-rating text-rating">N</td>
+			<td id="hsts-searchencrypt" class="f-rating text-rating">N</td>
 			<td id="disabled-js-searchencrypt" class="f-rating text-rating">N</td>
 			<td id="searchencrypt-onion-captchas" class="a-rating text-rating">N</td>
 			<td id="searchencrypt-filters-adult-content" class="a-rating text-rating">N</td>
@@ -917,6 +962,7 @@
 			<td id="post-request-discretesearch" class="a-rating text-rating">Y</td>
 			<td id="dnssec-discretesearch" class="f-rating text-rating">N</td>
 			<td id="ipv6-discretesearch" class="f-rating text-rating">N</td>
+			<td id="hsts-discretesearch" class="f-rating text-rating">N</td>
 			<td id="disabled-js-discretesearch" class="f-rating text-rating">N</td>
 			<td id="discretesearch-onion-captchas" class="a-rating text-rating">N</td>
 			<td id="discretesearch-filters-adult-content" class="a-rating text-rating">N</td>
@@ -936,6 +982,7 @@
 			<td id="post-request-ghostpeek" class="a-rating text-rating">Y</td>
 			<td id="dnssec-ghostpeek" class="f-rating text-rating">N</td>
 			<td id="ipv6-ghostpeek" class="f-rating text-rating">N</td>
+			<td id="hsts-ghostpeek" class="f-rating text-rating">N</td>
 			<td id="disabled-js-ghostpeek" class="f-rating text-rating">N</td>
 			<td id="ghostpeek-onion-captchas" class="a-rating text-rating">N</td>
 			<td id="ghostpeek-filters-adult-content" class="a-rating text-rating">N</td>
