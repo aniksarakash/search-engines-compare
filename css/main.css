@@ -332,3 +332,12 @@ table td {
 th, td {
 	padding: 15px;
 }
+
+#comparison thead {
+	position: sticky;
+	top: 0;
+}
+
+#comparison tbody :target {
+	scroll-margin-top: 110px;
+}
