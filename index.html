@@ -61,6 +61,7 @@
 				<th id="header-ssllabs"><a href="https://www.ssllabs.com/ssltest/" target="_blank" rel="external noopener noreferrer">SSL Labs Grade</a></th>
 				<th id="header-observatory"><a href="https://observatory.mozilla.org/" target="_blank" rel="external noopener noreferrer">Mozilla Observatory Grade</a></th>
 				<th id="header-ip-logging">IP Address Logging</th>
+				<th id="header-ip-sharing">IP Address Sharing</th>
 				<th id="header-3rd-party-tracking">3rd-Party Trackers</th>
 				<th id="header-onion-service"><a href="https://en.wikipedia.org/wiki/.onion" target="_blank" rel="external noopener noreferrer">Onion Service</a></th>
 				<th id="header-post-request"><a href="https://en.wikipedia.org/wiki/POST_(HTTP)" target="_blank" rel="external noopener noreferrer">POST Request Support</a></th>
@@ -83,6 +84,7 @@
 				<td id="duckduckgo-ssllabs" class="a-rating"><a href="https://www.ssllabs.com/ssltest/analyze.html?d=duckduckgo.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="a-rating text-rating">A<br /></div></a></td>
 				<td id="duckduckgo-observatory" class="b-rating"><a href="https://observatory.mozilla.org/analyze/duckduckgo.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="b-rating text-rating">B<br /></div></a></td>
 				<td id="duckduckgo-ip-logging" class="a-rating"><a href="https://duckduckgo.com/privacy" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="a-rating text-rating">N<br /></div></a></td>
+				<td id="duckduckgo-ip-sharing" class="a-rating text-rating">N</td>
 				<td id="duckduckgo-3rd-party-trackers" class="a-rating text-rating">N</td>
 				<td id="duckduckgo-onion-service" class="b-rating"><a href="https://3g2upl4pq6kufc4m.onion/" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="b-rating text-rating">Y (v2)<br /></div></a></td>
 				<td id="duckduckgo-post-request" class="a-rating text-rating">Y</td>
@@ -103,6 +105,7 @@
 				<td id="startpage-ssllabs" class="a-rating"><a href="https://www.ssllabs.com/ssltest/analyze.html?d=startpage.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="a-rating text-rating">A<br /></div></a></td>
 				<td id="startpage-observatory" class="b-rating"><a href="https://observatory.mozilla.org/analyze/startpage.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="b-rating text-rating">B<br /></div></a></td>
 				<td id="startpage-ip-logging" class="a-rating"><a href="https://www.startpage.com/en/search/privacy-policy.html" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="a-rating text-rating">N<br /></div></a></td>
+				<td id="startpage-ip-sharing" class="a-rating text-rating">N</td>
 				<td id="startpage-3rd-party-trackers" class="a-rating text-rating">N</td>
 				<td id="startpage-onion-service" class="f-rating text-rating">N</td>
 				<td id="startpage-post-request" class="a-rating text-rating">Y</td>
@@ -123,6 +126,7 @@
 				<td id="qwant-ssllabs" class="b-rating"><a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.qwant.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="b-rating text-rating">B<br /></div></a></td>
 				<td id="qwant-observatory" class="b-rating"><a href="https://observatory.mozilla.org/analyze/www.qwant.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="b-rating text-rating">B<br /></div></a></td>
 				<td id="qwant-ip-logging" class="c-rating"><a href="https://about.qwant.com/legal/privacy/" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="c-rating text-rating">Some<br /></div></a></td>
+				<td id="qwant-ip-sharing" class="c-rating text-rating">Some</td>
 				<td id="qwant-3rd-party-trackers" class="a-rating text-rating">N</td>
 				<td id="qwant-onion-service" class="f-rating text-rating">N</td>
 				<td id="qwant-post-request" class="f-rating text-rating">N</td>
@@ -143,6 +147,7 @@
 				<td id="swisscows-ssllabs" class="a-rating"><a href="https://www.ssllabs.com/ssltest/analyze.html?d=swisscows.ch" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="a-rating text-rating">A<br /></div></a></td>
 				<td id="swisscows-observatory" class="c-rating"><a href="https://observatory.mozilla.org/analyze/swisscows.ch" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="c-rating text-rating">C<br /></div></a></td>
 				<td id="swisscows-ip-logging" class="a-rating"><a href="https://swisscows.ch/en/privacy" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="a-rating text-rating">N<br /></div></a></td>
+				<td id="swisscows-ip-sharing" class="a-rating text-rating">N</td>
 				<td id="swisscows-3rd-party-trackers" class="a-rating text-rating">N</td>
 				<td id="swisscows-onion-service" class="f-rating text-rating">N</td>
 				<td id="swisscows-post-request" class="f-rating text-rating">N</td>
@@ -163,6 +168,7 @@
 				<td id="metager-ssllabs" class="a-rating"><a href="https://www.ssllabs.com/ssltest/analyze.html?d=metager.org" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="a-rating text-rating">A<br /></div></a></td>
 				<td id="metager-observatory" class="d-rating"><a href="https://observatory.mozilla.org/analyze/metager.org" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="d-rating text-rating">D<br /></div></a></td>
 				<td id="metager-ip-logging" class="c-rating"><a href="https://metager.org/en/datenschutz/" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="c-rating text-rating">Some<br /></div></a></td>
+				<td id="metager-ip-sharing" class="c-rating text-rating">Some</td>
 				<td id="metager-3rd-party-trackers" class="a-rating text-rating">N</td>
 				<td id="metager-onion-service" class="b-rating"><a href="http://b7cxf4dkdsko6ah2.onion/en" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="b-rating text-rating">Y (v2)<br /></div></a></td>
 				<td id="metager-post-request" class="f-rating text-rating">N</td>
@@ -183,6 +189,7 @@
 				<td id="mojeek-ssllabs" class="b-rating"><a href="https://www.ssllabs.com/ssltest/analyze.html?d=mojeek.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="b-rating text-rating">B<br /></div></a></td>
 				<td id="mojeek-observatory" class="c-rating"><a href="https://observatory.mozilla.org/analyze/mojeek.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="c-rating text-rating">C<br /></div></a></td>
 				<td id="mojeek-ip-logging" class="a-rating"><a href="https://www.mojeek.com/about/privacy/" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="a-rating text-rating">N<br /></div></a></td>
+				<td id="mojeek-ip-sharing" class="a-rating text-rating">N</td>
 				<td id="mojeek-3rd-party-trackers" class="a-rating text-rating">N</td>
 				<td id="mojeek-onion-service" class="f-rating text-rating">N</td>
 				<td id="mojeek-post-request" class="f-rating text-rating">N</td>
@@ -203,6 +210,7 @@
 				<td id="privacytools-ssllabs" class="a-rating"><a href="https://www.ssllabs.com/ssltest/analyze.html?d=search.privacytools.io" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="a-rating text-rating">A<br /></div></a></td>
 				<td id="privacytools-observatory" class="a-rating"><a href="https://observatory.mozilla.org/analyze/search.privacytools.io" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="a-rating text-rating">A<br /></div></a></td>
 				<td id="privacytools-ip-logging" class="c-rating"><a href="https://www.privacytools.io/privacy/" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="c-rating text-rating">Some<br /></div></a></td>
+				<td id="privacytools-ip-sharing" class="c-rating text-rating">Some</td>
 				<td id="privacytools-3rd-party-trackers" class="a-rating text-rating">N</td>
 				<td id="privacytools-onion-service" class="f-rating text-rating">N</td>
 				<td id="privacytools-post-request" class="a-rating text-rating">Y</td>
@@ -223,6 +231,7 @@
 				<td id="snopyta-ssllabs" class="a-rating"><a href="https://www.ssllabs.com/ssltest/analyze.html?d=search.snopyta.org" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="a-rating text-rating">A<br /></div></a></td>
 				<td id="snopyta-observatory" class="a-rating"><a href="https://observatory.mozilla.org/analyze/search.snopyta.org" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="a-rating text-rating">A<br /></div></a></td>
 				<td id="snopyta-ip-logging" class="a-rating"><a href="https://snopyta.org/privacy_policy/" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="a-rating text-rating">N<br /></div></a></td>
+				<td id="snopyta-ip-sharing" class="a-rating text-rating">N</td>
 				<td id="snopyta-3rd-party-trackers" class="a-rating text-rating">N</td>
 				<td id="snopyta-onion-service" class="f-rating text-rating">N</td>
 				<td id="snopyta-post-request" class="a-rating text-rating">Y</td>
@@ -243,6 +252,7 @@
 				<td id="disroot-ssllabs" class="a-rating"><a href="https://www.ssllabs.com/ssltest/analyze.html?d=search.disroot.org" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="a-rating text-rating">A<br /></div></a></td>
 				<td id="disroot-observatory" class="a-rating"><a href="https://observatory.mozilla.org/analyze/search.disroot.org" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="a-rating text-rating">A<br /></div></a></td>
 				<td id="disroot-ip-logging" class="a-rating"><a href="https://disroot.org/en/privacy_policy" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="a-rating text-rating">N<br /></div></a></td>
+				<td id="disroot-ip-sharing" class="a-rating text-rating">N</td>
 				<td id="disroot-3rd-party-trackers" class="a-rating text-rating">N</td>
 				<td id="disroot-onion-service" class="f-rating text-rating">N</td>
 				<td id="disroot-post-request" class="a-rating text-rating">Y</td>
@@ -263,6 +273,7 @@
 				<td id="nixnet-ssllabs" class="a-rating"><a href="https://www.ssllabs.com/ssltest/analyze.html?d=searx.nixnet.services" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="a-rating text-rating">A<br /></div></a></td>
 				<td id="nixnet-observatory" class="b-rating"><a href="https://observatory.mozilla.org/analyze/searx.nixnet.services" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="b-rating text-rating">B<br /></div></a></td>
 				<td id="nixnet-ip-logging" class="a-rating"><a href="https://nixnet.services/privacy" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="a-rating text-rating">N<br /></div></a></td>
+				<td id="nixnet-ip-sharing" class="a-rating text-rating">N</td>
 				<td id="nixnet-3rd-party-trackers" class="a-rating text-rating">N</td>
 				<td id="nixnet-onion-service" class="a-rating"><a href="http://searx.l4qlywnpwqsluw65ts7md3khrivpirse744un3x7mlskqauz5pyuzgqd.onion/" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="a-rating text-rating">Y (v3)<br /></div></a></td>
 				<td id="nixnet-post-request" class="a-rating text-rating">Y</td>
@@ -283,6 +294,7 @@
 				<td id="lelux.fi-ssllabs" class="a-rating"><a href="https://www.ssllabs.com/ssltest/analyze.html?d=searx.lelux.fi" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="a-rating text-rating">A<br /></div></a></td>
 				<td id="lelux.fi-observatory" class="d-rating"><a href="https://observatory.mozilla.org/analyze/searx.lelux.fi" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="d-rating text-rating">D<br /></div></a></td>
 				<td id="lelux.fi-ip-logging" class="a-rating"><a href="https://lelux.fi/privacy/" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="a-rating text-rating">N<br /></div></a></td>
+				<td id="lelux.fi-ip-sharing" class="a-rating text-rating">N</td>
 				<td id="lelux.fi-3rd-party-trackers" class="a-rating text-rating">N</td>
 				<td id="lelux.fi-onion-service" class="f-rating text-rating">N</td>
 				<td id="lelux.fi-post-request" class="a-rating text-rating">Y</td>
@@ -303,6 +315,7 @@
 				<td id="e-spot-ssllabs" class="a-rating"><a href="https://www.ssllabs.com/ssltest/analyze.html?d=spot.ecloud.global" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="a-rating text-rating">A<br /></div></a></td>
 				<td id="e-spot-observatory" class="a-rating"><a href="https://observatory.mozilla.org/analyze/spot.ecloud.global" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="a-rating text-rating">A<br /></div></a></td>
 				<td id="e-spot-ip-logging" class="f-rating"><a href="https://e.foundation/legal-notice-privacy" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">Y<br /></div></a></td>
+				<td id="e-spot-ip-sharing" class="a-rating text-rating">N</td>
 				<td id="e-spot-3rd-party-trackers" class="a-rating text-rating">N</td>
 				<td id="e-spot-onion-service" class="f-rating text-rating">N</td>
 				<td id="e-spot-post-request" class="a-rating text-rating">Y</td>
@@ -323,6 +336,7 @@
 				<td id="seznam-ssllabs" class="a-rating"><a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.seznam.cz" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="a-rating text-rating">A<br /></div></a></td>
 				<td id="seznam-observatory" class="c-rating"><a href="https://observatory.mozilla.org/analyze/www.seznam.cz" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="c-rating text-rating">C<br /></div></a></td>
 				<td id="seznam-ip-logging" class="a-rating"><a href="https://o.seznam.cz/ochrana-udaju/" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="a-rating text-rating">N<br /></div></a></td>
+				<td id="seznam-ip-sharing" class="a-rating text-rating">N</td>
 				<td id="seznam-3rd-party-trackers" class="a-rating text-rating">N</td>
 				<td id="seznam-onion-service" class="f-rating text-rating">N</td>
 				<td id="seznam-post-request" class="f-rating text-rating">N</td>
@@ -343,6 +357,7 @@
 				<td id="oscobo-ssllabs" class="b-rating"><a href="https://www.ssllabs.com/ssltest/analyze.html?d=oscobo.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="b-rating text-rating">B<br /></div></a></td>
 				<td id="oscobo-observatory" class="f-rating"><a href="https://observatory.mozilla.org/analyze/oscobo.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">F<br /></div></a></td>
 				<td id="oscobo-ip-logging" class="a-rating"><a href="https://oscobo.com/ctnt.php?c=privacy" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="a-rating text-rating">N<br /></div></a></td>
+				<td id="oscobo-ip-sharing" class="a-rating text-rating">N</td>
 				<td id="oscobo-3rd-party-trackers" class="a-rating text-rating">N</td>
 				<td id="oscobo-onion-service" class="f-rating text-rating">N</td>
 				<td id="oscobo-post-request" class="f-rating text-rating">N</td>
@@ -363,6 +378,7 @@
 				<td id="peekier-ssllabs" class="b-rating"><a href="https://www.ssllabs.com/ssltest/analyze.html?d=peekier.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="b-rating text-rating">B<br /></div></a></td>
 				<td id="peekier-observatory" class="b-rating"><a href="https://observatory.mozilla.org/analyze/peekier.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="b-rating text-rating">B<br /></div></a></td>
 				<td id="peekier-ip-logging" class="a-rating"><a href="https://peekier.com/privacy" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="a-rating text-rating">N<br /></div></a></td>
+				<td id="peekier-ip-sharing" class="a-rating text-rating">N</td>
 				<td id="peekier-3rd-party-trackers" class="a-rating text-rating">N</td>
 				<td id="peekier-onion-service" class="f-rating text-rating">N</td>
 				<td id="peekier-post-request" class="f-rating text-rating">N</td>
@@ -383,6 +399,7 @@
 				<td id="infinitysearch-ssllabs" class="a-rating"><a href="https://www.ssllabs.com/ssltest/analyze.html?d=infinitysearch.co" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="a-rating text-rating">A<br /></div></a></td>
 				<td id="infinitysearch-observatory" class="b-rating"><a href="https://observatory.mozilla.org/analyze/infinitysearch.co" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="b-rating text-rating">B<br /></div></a></td>
 				<td id="infinitysearch-ip-logging" class="a-rating"><a href="https://infinitysearch.co/privacy" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="a-rating text-rating">N<br /></div></a></td>
+				<td id="infinitysearch-ip-sharing" class="a-rating text-rating">N</td>
 				<td id="infinitysearch-3rd-party-trackers" class="a-rating text-rating">N</td>
 				<td id="infinitysearch-onion-service" class="f-rating text-rating">N</td>
 				<td id="infinitysearch-post-request" class="a-rating text-rating">Y</td>
@@ -403,6 +420,7 @@
 				<td id="whaleslide-ssllabs" class="a-rating"><a href="https://www.ssllabs.com/ssltest/analyze.html?d=whaleslide.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="a-rating text-rating">A<br /></div></a></td>
 				<td id="whaleslide-observatory" class="f-rating"><a href="https://observatory.mozilla.org/analyze/whaleslide.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">F<br /></div></a></td>
 				<td id="whaleslide-ip-logging" class="a-rating"><a href="https://whaleslide.com/info/privacy" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="a-rating text-rating">N<br /></div></a></td>
+				<td id="whaleslide-ip-sharing" class="a-rating text-rating">N</td>
 				<td id="whaleslide-3rd-party-trackers" class="a-rating text-rating">N</td>
 				<td id="whaleslide-onion-service" class="f-rating text-rating">N</td>
 				<td id="whaleslide-post-request" class="f-rating text-rating">N</td>
@@ -423,6 +441,7 @@
 				<td id="ekoru-ssllabs" class="b-rating"><a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.ekoru.org" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="b-rating text-rating">B<br /></div></a></td>
 				<td id="ekoru-observatory" class="d-rating"><a href="https://observatory.mozilla.org/analyze/www.ekoru.org" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="d-rating text-rating">D<br /></div></a></td>
 				<td id="ekoru-ip-logging" class="a-rating"><a href="https://www.ekoru.org/privacy/" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="a-rating text-rating">N<br /></div></a></td>
+				<td id="ekoru-ip-sharing" class="c-rating text-rating">Some</td>
 				<td id="ekoru-3rd-party-trackers" class="a-rating text-rating">N</td>
 				<td id="ekoru-onion-service" class="f-rating text-rating">N</td>
 				<td id="ekoru-post-request" class="f-rating text-rating">N</td>
@@ -443,6 +462,7 @@
 				<td id="ecosia-ssllabs" class="a-rating"><a href="https://www.ssllabs.com/ssltest/analyze.html?d=ecosia.org" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="a-rating text-rating">A<br /></div></a></td>
 				<td id="ecosia-observatory" class="b-rating"><a href="https://observatory.mozilla.org/analyze/ecosia.org" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="b-rating text-rating">B<br /></div></a></td>
 				<td id="ecosia-ip-logging" class="c-rating"><a href="https://info.ecosia.org/privacy" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="c-rating text-rating">Some<br /></div></a></td>
+				<td id="ecosia-ip-sharing" class="c-rating text-rating">Some</td>
 				<td id="ecosia-3rd-party-trackers" class="f-rating text-rating">Y</td>
 				<td id="ecosia-onion-service" class="f-rating text-rating">N</td>
 				<td id="ecosia-post-request" class="f-rating text-rating">N</td>
@@ -463,6 +483,7 @@
 				<td id="private.sh-ssllabs" class="a-rating"><a href="https://www.ssllabs.com/ssltest/analyze.html?d=private.sh" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="a-rating text-rating">A<br /></div></a></td>
 				<td id="private.sh-observatory" class="f-rating"><a href="https://observatory.mozilla.org/analyze/private.sh" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">F<br /></div></a></td>
 				<td id="privacy.sh-ip-logging" class="a-rating"><a href="https://private.sh/how-it-works.html" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="a-rating text-rating">N<br /></div></a></td>
+				<td id="privacy.sh-ip-sharing" class="a-rating text-rating">N</td>
 				<td id="private.sh-3rd-party-trackers" class="a-rating text-rating">N</td>
 				<td id="private.sh-onion-service" class="f-rating text-rating">N</td>
 				<td id="private.sh-post-request" class="b-rating text-rating">Y (only)</td>
@@ -482,7 +503,8 @@
 				<td id="runnaroo-jurisdiction">USA</td>
 				<td id="runnaroo-ssllabs" class="b-rating"><a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.runnaroo.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="b-rating text-rating">B<br /></div></a></td>
 				<td id="runnaroo-observatory" class="b-rating"><a href="https://observatory.mozilla.org/analyze/www.runnaroo.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="b-rating text-rating">B<br /></div></a></td>
-				<td id="runnaroo-ip-logging" class="f-rating"><a href="https://www.runnaroo.com/privacy" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">Y<br /></div></a></td>
+				<td id="runnaroo-ip-logging" class="a-rating"><a href="https://www.runnaroo.com/privacy" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="a-rating text-rating">N<br /></div></a></td>
+				<td id="runnaroo-ip-sharing" class="f-rating text-rating">Y</td>
 				<td id="runnaroo-3rd-party-trackers" class="a-rating text-rating">N</td>
 				<td id="runnaroo-onion-service" class="f-rating text-rating">N</td>
 				<td id="runnaroo-post-request" class="f-rating text-rating">N</td>
@@ -503,6 +525,7 @@
 				<td id="privado-ssllabs" class="a-rating"><a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.privado.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="a-rating text-rating">A<br /></div></a></td>
 				<td id="privado-observatory" class="f-rating"><a href="https://observatory.mozilla.org/analyze/www.privado.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">F<br /></div></a></td>
 				<td id="privado-ip-logging" class="c-rating"><a href="https://www.privado.com/about/privacy" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="c-rating text-rating">Some<br /></div></a></td>
+				<td id="privado-ip-sharing" class="c-rating text-rating">Some</td>
 				<td id="privado-3rd-party-trackers" class="a-rating text-rating">N</td>
 				<td id="privado-onion-service" class="f-rating text-rating">N</td>
 				<td id="privado-post-request" class="f-rating text-rating">N</td>
@@ -522,7 +545,8 @@
 				<td id="findx-jurisdiction">Denmark</td>
 				<td id="findx-ssllabs" class="b-rating"><a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.findx.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="b-rating text-rating">B<br /></div></a></td>
 				<td id="findx-observatory" class="f-rating"><a href="https://observatory.mozilla.org/analyze/www.findx.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">F<br /></div></a></td>
-				<td id="findx-ip-logging" class="f-rating"><a href="https://www.findx.com/privacy" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">Y<br /></div></a></td>
+				<td id="findx-ip-logging" class="c-rating"><a href="https://www.findx.com/privacy" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="c-rating text-rating">Some<br /></div></a></td>
+				<td id="findx-ip-sharing" class="a-rating text-rating">N</td>
 				<td id="findx-3rd-party-trackers" class="a-rating text-rating">N</td>
 				<td id="findx-onion-service" class="f-rating text-rating">N</td>
 				<td id="findx-post-request" class="f-rating text-rating">N</td>
@@ -542,7 +566,8 @@
 				<td id="gigablast-jurisdiction">USA</td>
 				<td id="gigablast-ssllabs" class="b-rating"><a href="https://www.ssllabs.com/ssltest/analyze.html?d=gigablast.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="b-rating text-rating">B<br /></div></a></td>
 				<td id="gigablast-observatory" class="f-rating"><a href="https://observatory.mozilla.org/analyze/gigablast.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">F<br /></div></a></td>
-				<td id="gigablast-ip-logging" class="f-rating"><a href="https://gigablast.com/privacy.html" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">Y<br /></div></a></td>
+				<td id="gigablast-ip-logging" class="f-rating"><a href="https://gigablast.com/privacy.html" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">Y?<br /></div></a></td>
+				<td id="gigablast-ip-sharing" class="a-rating text-rating">N</td>
 				<td id="gigablast-3rd-party-trackers" class="a-rating text-rating">N</td>
 				<td id="gigablast-onion-service" class="f-rating text-rating">N</td>
 				<td id="gigablast-post-request" class="f-rating text-rating">N</td>
@@ -563,6 +588,7 @@
 				<td id="privacywall-ssllabs" class="b-rating"><a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.privacywall.org" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="b-rating text-rating">B<br /></div></a></td>
 				<td id="privacywall-observatory" class="f-rating"><a href="https://observatory.mozilla.org/analyze/www.privacywall.org" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">F<br /></div></a></td>
 				<td id="privacywall-ip-logging" class="f-rating"><a href="https://www.privacywall.org/privacy" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">Y<br /></div></a></td>
+				<td id="privacywall-ip-sharing" class="f-rating text-rating">Y</td>
 				<td id="privacywall-3rd-party-trackers" class="a-rating text-rating">N</td>
 				<td id="privacywall-onion-service" class="f-rating text-rating">N</td>
 				<td id="privacywall-post-request" class="f-rating text-rating">N</td>
@@ -583,6 +609,7 @@
 				<td id="yippy-ssllabs" class="b-rating"><a href="https://www.ssllabs.com/ssltest/analyze.html?d=yippy.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="b-rating text-rating">B<br /></div></a></td>
 				<td id="yippy-observatory" class="f-rating"><a href="https://observatory.mozilla.org/analyze/yippy.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">F<br /></div></a></td>
 				<td id="yippy-ip-logging" class="f-rating"><a href="https://yippy.com/privacy-policy-tos.php" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">Y<br /></div></a></td>
+				<td id="yippy-ip-sharing" class="a-rating text-rating">N</td>
 				<td id="yippy-3rd-party-trackers" class="a-rating text-rating">N</td>
 				<td id="yippy-onion-service" class="f-rating text-rating">N</td>
 				<td id="yippy-post-request" class="f-rating text-rating">N</td>
@@ -602,7 +629,8 @@
 				<td id="givero-jurisdiction">Denmark</td>
 				<td id="givero-ssllabs" class="a-rating"><a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.givero.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="a-rating text-rating">A<br /></div></a></td>
 				<td id="givero-observatory" class="d-rating"><a href="https://observatory.mozilla.org/analyze/www.givero.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="d-rating text-rating">D<br /></div></a></td>
-				<td id="givero-ip-logging" class="f-rating"><a href="https://www.givero.com/privacy" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">Y<br /></div></a></td>
+				<td id="givero-ip-logging" class="c-rating"><a href="https://www.givero.com/privacy" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="c-rating text-rating">Some<br /></div></a></td>
+				<td id="givero-ip-sharing" class="a-rating text-rating">N</td>
 				<td id="givero-3rd-party-trackers" class="f-rating text-rating">Y</td>
 				<td id="givero-onion-service" class="f-rating text-rating">N</td>
 				<td id="givero-post-request" class="f-rating text-rating">N</td>
@@ -622,7 +650,8 @@
 				<td id="epicsearch-jurisdiction">USA</td>
 				<td id="epicsearch-ssllabs" class="b-rating"><a href="https://www.ssllabs.com/ssltest/analyze.html?d=epicsearch.in" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="b-rating text-rating">B<br /></div></a></td>
 				<td id="epicsearch-observatory" class="f-rating"><a href="https://observatory.mozilla.org/analyze/epicsearch.in" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">F<br /></div></a></td>
-				<td id="epicsearch-ip-logging" class="f-rating"><a href="https://epicsearch.in/how_it_works" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">Y<br /></div></a></td>
+				<td id="epicsearch-ip-logging" class="f-rating"><a href="https://epicsearch.in/how_it_works" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">Y?<br /></div></a></td>
+				<td id="epicsearch-ip-sharing" class="a-rating text-rating">N</td>
 				<td id="epicsearch-3rd-party-trackers" class="a-rating text-rating">N</td>
 				<td id="epicsearch-onion-service" class="f-rating text-rating">N</td>
 				<td id="epicsearch-post-request" class="f-rating text-rating">N</td>
@@ -642,7 +671,8 @@
 				<td id="lilo-jurisdiction">France</td>
 				<td id="lilo-ssllabs" class="b-rating"><a href="https://www.ssllabs.com/ssltest/analyze.html?d=search.lilo.org" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="b-rating text-rating">B<br /></div></a></td>
 				<td id="lilo-observatory" class="f-rating"><a href="https://observatory.mozilla.org/analyze/search.lilo.org" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">F<br /></div></a></td>
-				<td id="lilo-ip-logging" class="f-rating"><a href="https://www.lilo.org/en/privacy/" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">Y<br /></div></a></td>
+				<td id="lilo-ip-logging" class="c-rating"><a href="https://www.lilo.org/en/privacy/" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="c-rating text-rating">Some<br /></div></a></td>
+				<td id="lilo-ip-sharing" class="f-rating text-rating">Y</td>
 				<td id="lilo-3rd-party-trackers" class="f-rating text-rating">Y</td>
 				<td id="lilo-onion-service" class="f-rating text-rating">N</td>
 				<td id="lilo-post-request" class="f-rating text-rating">N</td>
@@ -663,6 +693,7 @@
 				<td id="bing-ssllabs" class="b-rating"><a href="https://www.ssllabs.com/ssltest/analyze.html?d=bing.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="b-rating text-rating">B<br /></div></a></td>
 				<td id="bing-observatory" class="f-rating"><a href="https://observatory.mozilla.org/analyze/bing.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">F<br /></div></a></td>
 				<td id="bing-ip-logging" class="f-rating"><a href="https://privacy.microsoft.com/en-us/privacystatement" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">Y<br /></div></a></td>
+				<td id="bing-ip-sharing" class="f-rating text-rating">Y</td>
 				<td id="bing-3rd-party-trackers" class="a-rating text-rating">N</td>
 				<td id="bing-onion-service" class="f-rating text-rating">N</td>
 				<td id="bing-post-request" class="f-rating text-rating">N</td>
@@ -682,7 +713,8 @@
 				<td id="gibiru-jurisdiction" class="a-rating text-rating">Ladonia</td>
 				<td id="gibiru-ssllabs" class="a-rating"><a href="https://www.ssllabs.com/ssltest/analyze.html?d=gibiru.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="a-rating text-rating">A<br /></div></a></td>
 				<td id="gibiru-observatory" class="c-rating"><a href="https://observatory.mozilla.org/analyze/gibiru.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="c-rating text-rating">C<br /></div></a></td>
-				<td id="gibiru-ip-logging" class="f-rating"><a href="https://gibiru.com/privacy-policy/#privacy-policy" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">Y<br /></div></a></td>
+				<td id="gibiru-ip-logging" class="a-rating"><a href="https://gibiru.com/privacy-policy/#privacy-policy" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="a-rating text-rating">N<br /></div></a></td>
+				<td id="gibiru-ip-sharing" class="a-rating text-rating">N</td>
 				<td id="gibiru-3rd-party-trackers" class="f-rating text-rating">Y</td>
 				<td id="gibiru-onion-service" class="f-rating text-rating">N</td>
 				<td id="gibiru-post-request" class="f-rating text-rating">N</td>
@@ -703,6 +735,7 @@
 				<td id="onesearch-ssllabs" class="b-rating"><a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.onesearch.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="b-rating text-rating">B<br /></div></a></td>
 				<td id="onesearch-observatory" class="b-rating"><a href="https://observatory.mozilla.org/analyze/www.onesearch.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="b-rating text-rating">B<br /></div></a></td>
 				<td id="onesearch-ip-logging" class="f-rating"><a href="https://www.onesearch.com/privacy-policy?hspart=ono&hsimp=yhs-df" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">Y<br /></div></a></td>
+				<td id="onesearch-ip-sharing" class="a-rating text-rating">Y</td>
 				<td id="onesearch-3rd-party-trackers" class="f-rating text-rating">Y</td>
 				<td id="onesearch-onion-service" class="f-rating text-rating">N</td>
 				<td id="onesearch-post-request" class="f-rating text-rating">N</td>
@@ -723,6 +756,7 @@
 				<td id="yahoo-ssllabs" class="b-rating"><a href="https://www.ssllabs.com/ssltest/analyze.html?d=yahoo.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="b-rating text-rating">B<br /></div></a></td>
 				<td id="yahoo-observatory" class="b-rating"><a href="https://observatory.mozilla.org/analyze/yahoo.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="b-rating text-rating">B<br /></div></a></td>
 				<td id="yahoo-ip-logging" class="f-rating"><a href="https://policies.oath.com/us/en/oath/privacy/index.html" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">Y<br /></div></a></td>
+				<td id="yahoo-ip-sharing" class="f-rating text-rating">Y</td>
 				<td id="yahoo-3rd-party-trackers" class="f-rating text-rating">Y</td>
 				<td id="yahoo-onion-service" class="f-rating text-rating">N</td>
 				<td id="yahoo-post-request" class="f-rating text-rating">N</td>
@@ -743,6 +777,7 @@
 				<td id="ask-ssllabs" class="a-rating"><a href="https://www.ssllabs.com/ssltest/analyze.html?d=ask.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="a-rating text-rating">A<br /></div></a></td>
 				<td id="ask-observatory" class="f-rating"><a href="https://observatory.mozilla.org/analyze/ask.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">F<br /></div></a></td>
 				<td id="ask-ip-logging" class="f-rating"><a href="https://www.ask.com/privacy" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">Y<br /></div></a></td>
+				<td id="ask-ip-sharing" class="f-rating text-rating">Y</td>
 				<td id="ask-3rd-party-trackers" class="f-rating text-rating">Y</td>
 				<td id="ask-onion-service" class="f-rating text-rating">N</td>
 				<td id="ask-post-request" class="f-rating text-rating">N</td>
@@ -763,6 +798,7 @@
 				<td id="yandex-ssllabs" class="b-rating"><a href="https://www.ssllabs.com/ssltest/analyze.html?d=yandex.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="b-rating text-rating">B<br /></div></a></td>
 				<td id="yandex-observatory" class="f-rating"><a href="https://observatory.mozilla.org/analyze/yandex.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">F<br /></div></a></td>
 				<td id="yandex-ip-logging" class="f-rating"><a href="https://yandex.com/legal/confidential/" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">Y<br /></div></a></td>
+				<td id="yandex-ip-sharing" class="f-rating text-rating">Y</td>
 				<td id="yandex-3rd-party-trackers" class="a-rating text-rating">N</td>
 				<td id="yandex-onion-service" class="f-rating text-rating">N</td>
 				<td id="yandex-post-request" class="f-rating text-rating">N</td>
@@ -783,6 +819,7 @@
 				<td id="aol-ssllabs" class="b-rating"><a href="https://www.ssllabs.com/ssltest/analyze.html?d=aol.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="b-rating text-rating">B<br /></div></a></td>
 				<td id="aol-observatory" class="c-rating"><a href="https://observatory.mozilla.org/analyze/aol.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="c-rating text-rating">C<br /></div></a></td>
 				<td id="aol-ip-logging" class="f-rating"><a href="https://www.verizonmedia.com/policies/us/en/verizonmedia/privacy/index.html" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">Y<br /></div></a></td>
+				<td id="aol-ip-sharing" class="f-rating text-rating">Y</td>
 				<td id="aol-3rd-party-trackers" class="f-rating text-rating">Y</td>
 				<td id="aol-onion-service" class="f-rating text-rating">N</td>
 				<td id="aol-post-request" class="f-rating text-rating">N</td>
@@ -803,6 +840,7 @@
 				<td id="google-ssllabs" class="b-rating"><a href="https://www.ssllabs.com/ssltest/analyze.html?d=google.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="b-rating text-rating">B<br /></div></a></td>
 				<td id="google-observatory" class="d-rating"><a href="https://observatory.mozilla.org/analyze/google.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="d-rating text-rating">D<br /></div></a></td>
 				<td id="google-ip-logging" class="f-rating"><a href="https://policies.google.com/privacy" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">Y<br /></div></a></td>
+				<td id="google-ip-sharing" class="f-rating text-rating">Y?</td>
 				<td id="google-3rd-party-trackers" class="a-rating text-rating">N</td>
 				<td id="google-onion-service" class="f-rating text-rating">N</td>
 				<td id="google-post-request" class="f-rating text-rating">N</td>
@@ -823,6 +861,7 @@
 				<td id="youcare-ssllabs" class="a-rating"><a href="https://www.ssllabs.com/ssltest/analyze.html?d=youcare.world" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="a-rating text-rating">A<br /></div></a></td>
 				<td id="youcare-observatory" class="a-rating"><a href="https://observatory.mozilla.org/analyze/youcare.world" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="a-rating text-rating">A<br /></div></a></td>
 				<td id="youcare-ip-logging" class="f-rating"><a href="https://youcare.world/privacy" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">Y<br /></div></a></td>
+				<td id="youcare-ip-sharing" class="f-rating text-rating">Y</td>
 				<td id="youcare-3rd-party-trackers" class="f-rating text-rating">Y</td>
 				<td id="youcare-onion-service" class="f-rating text-rating">N</td>
 				<td id="youcare-post-request" class="f-rating text-rating">N</td>
@@ -843,6 +882,7 @@
 				<td id="oceanhero-ssllabs" class="a-rating"><a href="https://www.ssllabs.com/ssltest/analyze.html?d=oceanhero.today" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="a-rating text-rating">A<br /></div></a></td>
 				<td id="oceanhero-observatory" class="b-rating"><a href="https://observatory.mozilla.org/analyze/oceanhero.today" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="b-rating text-rating">B<br /></div></a></td>
 				<td id="oceanhero-ip-logging" class="f-rating"><a href="https://about.oceanhero.today/privacy-policy" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">Y<br /></div></a></td>
+				<td id="oceanhero-ip-sharing" class="f-rating text-rating">Y</td>
 				<td id="oceanhero-3rd-party-trackers" class="f-rating text-rating">Y</td>
 				<td id="oceanhero-onion-service" class="f-rating text-rating">N</td>
 				<td id="oceanhero-post-request" class="f-rating text-rating">N</td>
@@ -863,6 +903,7 @@
 				<td id="gexsi-ssllabs" class="a-rating"><a href="https://www.ssllabs.com/ssltest/analyze.html?d=gexsi.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="a-rating text-rating">A<br /></div></a></td>
 				<td id="gexsi-observatory" class="f-rating"><a href="https://observatory.mozilla.org/analyze/gexsi.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">F<br /></div></a></td>
 				<td id="gexsi-ip-logging" class="f-rating"><a href="https://gexsi.com/about/datenschutz/" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">Y<br /></div></a></td>
+				<td id="gexsi-ip-sharing" class="f-rating text-rating">Y</td>
 				<td id="gexsi-3rd-party-trackers" class="f-rating text-rating">Y</td>
 				<td id="gexsi-onion-service" class="f-rating text-rating">N</td>
 				<td id="gexsi-post-request" class="f-rating text-rating">N</td>
@@ -883,6 +924,7 @@
 				<td id="exalead-ssllabs" class="b-rating"><a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.exalead.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="b-rating text-rating">B<br /></div></a></td>
 				<td id="exalead-observatory" class="f-rating"><a href="https://observatory.mozilla.org/analyze/www.exalead.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">F<br /></div></a></td>
 				<td id="exalead-ip-logging" class="f-rating"><a href="https://www.exalead.com/search/privacypolicy" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">Y<br /></div></a></td>
+				<td id="exalead-ip-sharing" class="f-rating text-rating">Y</td>
 				<td id="exalead-3rd-party-trackers" class="f-rating text-rating">Y</td>
 				<td id="exalead-onion-service" class="f-rating text-rating">N</td>
 				<td id="exalead-post-request" class="f-rating text-rating">N</td>
@@ -902,7 +944,8 @@
 				<td id="alohafind-jurisdiction">Cyprus</td>
 				<td id="alohafind-ssllabs" class="b-rating"><a href="https://www.ssllabs.com/ssltest/analyze.html?d=alohafind.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="b-rating text-rating">B<br /></div></a></td>
 				<td id="alohafind-observatory" class="f-rating"><a href="https://observatory.mozilla.org/analyze/alohafind.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">F<br /></div></a></td>
-				<td id="alohafind-ip-logging" class="f-rating"><a href="https://alohafind.com/privacy.html" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">Y<br /></div></a></td>
+				<td id="alohafind-ip-logging" class="a-rating"><a href="https://alohafind.com/privacy.html" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="a-rating text-rating">N<br /></div></a></td>
+				<td id="alohafind-ip-sharing" class="f-rating text-rating">Y</td>
 				<td id="alohafind-3rd-party-trackers" class="f-rating text-rating">Y</td>
 				<td id="alohafind-onion-service" class="f-rating text-rating">N</td>
 				<td id="alohafind-post-request" class="f-rating text-rating">N</td>
@@ -923,6 +966,7 @@
 				<td id="lycos-ssllabs" class="b-rating"><a href="https://www.ssllabs.com/ssltest/analyze.html?d=search.lycos.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="b-rating text-rating">B<br /></div></a></td>
 				<td id="lycos-observatory" class="f-rating"><a href="https://observatory.mozilla.org/analyze/search.lycos.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">F<br /></div></a></td>
 				<td id="lycos-ip-logging" class="f-rating"><a href="https://info.lycos.com/resources/privacy-policy/" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">Y<br /></div></a></td>
+				<td id="lycos-ip-sharing" class="c-rating text-rating">Some</td>
 				<td id="lycos-3rd-party-trackers" class="f-rating text-rating">Y</td>
 				<td id="lycos-onion-service" class="f-rating text-rating">N</td>
 				<td id="lycos-post-request" class="f-rating text-rating">N</td>
@@ -943,6 +987,7 @@
 				<td id="dogpile-ssllabs" class="b-rating"><a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.dogpile.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="b-rating text-rating">B<br /></div></a></td>
 				<td id="dogpile-observatory" class="f-rating"><a href="https://observatory.mozilla.org/analyze/www.dogpile.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">F<br /></div></a></td>
 				<td id="dogpile-ip-logging" class="f-rating"><a href="https://system1.com/terms/privacy-policy" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">Y<br /></div></a></td>
+				<td id="dogpile-ip-sharing" class="f-rating text-rating">Y</td>
 				<td id="dogpile-3rd-party-trackers" class="f-rating text-rating">Y</td>
 				<td id="dogpile-onion-service" class="f-rating text-rating">N</td>
 				<td id="dogpile-post-request" class="f-rating text-rating">N</td>
@@ -963,6 +1008,7 @@
 				<td id="info-ssllabs" class="b-rating"><a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.info.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="b-rating text-rating">B<br /></div></a></td>
 				<td id="info-observatory" class="f-rating"><a href="https://observatory.mozilla.org/analyze/www.info.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">F<br /></div></a></td>
 				<td id="info-ip-logging" class="f-rating"><a href="https://system1.com/terms/privacy-policy" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">Y<br /></div></a></td>
+				<td id="info-ip-sharing" class="f-rating text-rating">Y</td>
 				<td id="info-3rd-party-trackers" class="f-rating text-rating">Y</td>
 				<td id="info-onion-service" class="f-rating text-rating">N</td>
 				<td id="info-post-request" class="f-rating text-rating">N</td>
@@ -983,6 +1029,7 @@
 				<td id="webcrawler-ssllabs" class="b-rating"><a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.webcrawler.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="b-rating text-rating">B<br /></div></a></td>
 				<td id="webcrawler-observatory" class="f-rating"><a href="https://observatory.mozilla.org/analyze/www.webcrawler.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">F<br /></div></a></td>
 				<td id="webcrawler-ip-logging" class="f-rating"><a href="https://system1.com/terms/privacy-policy" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">Y<br /></div></a></td>
+				<td id="webcrawler-ip-sharing" class="f-rating text-rating">Y</td>
 				<td id="webcrawler-3rd-party-trackers" class="f-rating text-rating">Y</td>
 				<td id="webcrawler-onion-service" class="f-rating text-rating">N</td>
 				<td id="webcrawler-post-request" class="f-rating text-rating">N</td>
@@ -1003,6 +1050,7 @@
 				<td id="metacrawler-ssllabs" class="b-rating"><a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.metacrawler.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="b-rating text-rating">B<br /></div></a></td>
 				<td id="metacrawler-observatory" class="f-rating"><a href="https://observatory.mozilla.org/analyze/www.metacrawler.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">F<br /></div></a></td>
 				<td id="metacrawler-ip-logging" class="f-rating"><a href="https://system1.com/terms/privacy-policy" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">Y<br /></div></a></td>
+				<td id="metacrawler-ip-sharing" class="f-rating text-rating">Y</td>
 				<td id="metacrawler-3rd-party-trackers" class="f-rating text-rating">Y</td>
 				<td id="metacrawler-onion-service" class="f-rating text-rating">N</td>
 				<td id="metacrawler-post-request" class="f-rating text-rating">N</td>
@@ -1023,6 +1071,7 @@
 				<td id="excite-ssllabs" class="b-rating"><a href="https://www.ssllabs.com/ssltest/analyze.html?d=results.excite.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="b-rating text-rating">B<br /></div></a></td>
 				<td id="excite-observatory" class="f-rating"><a href="https://observatory.mozilla.org/analyze/results.excite.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">F<br /></div></a></td>
 				<td id="excite-ip-logging" class="f-rating"><a href="https://system1.com/terms/privacy-policy" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">Y<br /></div></a></td>
+				<td id="excite-ip-sharing" class="f-rating text-rating">Y</td>
 				<td id="excite-3rd-party-trackers" class="f-rating text-rating">Y</td>
 				<td id="excite-onion-service" class="f-rating text-rating">N</td>
 				<td id="excite-post-request" class="f-rating text-rating">N</td>
@@ -1043,6 +1092,7 @@
 				<td id="search.com-ssllabs" class="b-rating"><a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.search.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="b-rating text-rating">B<br /></div></a></td>
 				<td id="search.com-observatory" class="f-rating"><a href="https://observatory.mozilla.org/analyze/www.search.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">F<br /></div></a></td>
 				<td id="search.com-ip-logging" class="f-rating"><a href="https://privacy.cbs/" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">Y<br /></div></a></td>
+				<td id="search.com-ip-sharing" class="f-rating text-rating">Y</td>
 				<td id="search.com-3rd-party-trackers" class="f-rating text-rating">Y</td>
 				<td id="search.com-onion-service" class="f-rating text-rating">N</td>
 				<td id="search.com-post-request" class="f-rating text-rating">N</td>
@@ -1062,7 +1112,8 @@
 				<td id="gmx-jurisdiction">Germany</td>
 				<td id="gmx-ssllabs" class="b-rating"><a href="https://www.ssllabs.com/ssltest/analyze.html?d=search.gmx.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="b-rating text-rating">B<br /></div></a></td>
 				<td id="gmx-observatory" class="d-rating"><a href="https://observatory.mozilla.org/analyze/search.gmx.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="d-rating text-rating">D<br /></div></a></td>
-				<td id="gmx-ip-logging" class="f-rating"><a href="https://www.gmx.com/company/privacypolicy/" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">Y<br /></div></a></td>
+				<td id="gmx-ip-logging" class="c-rating"><a href="https://www.gmx.com/company/privacypolicy/" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="c-rating text-rating">Some<br /></div></a></td>
+				<td id="gmx-ip-sharing" class="f-rating text-rating">Y</td>
 				<td id="gmx-3rd-party-trackers" class="f-rating text-rating">Y</td>
 				<td id="gmx-onion-service" class="f-rating text-rating">N</td>
 				<td id="gmx-post-request" class="f-rating text-rating">N</td>
@@ -1082,7 +1133,8 @@
 				<td id="millionshort-jurisdiction">USA</td>
 				<td id="millionshort-ssllabs" class="b-rating"><a href="https://www.ssllabs.com/ssltest/analyze.html?d=millionshort.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="b-rating text-rating">B<br /></div></a></td>
 				<td id="millionshort-observatory" class="f-rating"><a href="https://observatory.mozilla.org/analyze/millionshort.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">F<br /></div></a></td>
-				<td id="millionshort-ip-logging" class="f-rating"><a href="https://millionshort.com/privacy" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">Y<br /></div></a></td>
+				<td id="millionshort-ip-logging" class="f-rating"><a href="https://millionshort.com/privacy" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">Y?<br /></div></a></td>
+				<td id="millionshort-ip-sharing" class="f-rating text-rating">Y?</td>
 				<td id="millionshort-3rd-party-trackers" class="a-rating text-rating">N</td>
 				<td id="millionshort-onion-service" class="f-rating text-rating">N</td>
 				<td id="millionshort-post-request" class="f-rating text-rating">N</td>
@@ -1096,53 +1148,14 @@
 				<td id="millionshort-clearnet-url">https://millionshort.com/search?shopping=&country=&chat=&remove=0&keywords=%s</td>
 			</tr>
 			<tr>
-				<td id="izsearch-name"><a href="https://izsearch.com" target="_blank" rel="external noopener noreferrer">iZSearch</a></td>
-				<td id="izsearch-since">2012</td>
-				<td id="izsearch-type">For-Profit</td>
-				<td id="izsearch-jurisdiction">USA</td>
-				<td id="izsearch-ssllabs" class="f-rating"><a href="https://www.ssllabs.com/ssltest/analyze.html?d=izsearch.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">F<br /></div></a></td>
-				<td id="izsearch-observatory" class="f-rating"><a href="https://observatory.mozilla.org/analyze/izsearch.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">F<br /></div></a></td>
-				<td id="izsearch-ip-logging" class="a-rating"><a href="https://izsearch.com/about.html" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="a-rating text-rating">N<br /></div></a></td>
-				<td id="izsearch-3rd-party-trackers" class="f-rating text-rating">Y</td>
-				<td id="izsearch-onion-service" class="f-rating text-rating">N</td>
-				<td id="izsearch-post-request" class="f-rating text-rating">N</td>
-				<td id="izsearch-dnssec" class="f-rating"><a href="https://en.internet.nl/site/izsearch.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">N<br /></div></a></td>
-				<td id="izsearch-ipv6" class="f-rating"><a href="https://en.internet.nl/site/izsearch.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">N<br /></div></a></td>
-				<td id="izsearch-hsts" class="f-rating"><a href="https://en.internet.nl/site/izsearch.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">N<br /></div></a></td>
-				<td id="izsearch-disabled-js" class="a-rating text-rating">Y</td>
-				<td id="izsearch-onion-captchas" class="a-rating text-rating">N</td>
-				<td id="izsearch-filters-adult-content" class="a-rating text-rating">N</td>
-				<td id="izsearch-proxy-service" class="f-rating text-rating">N</td>
-				<td id="izsearch-clearnet-url">https://izsearch.com/search?q=%s</td>
-			</tr>
-			<tr>
-				<td id="searchpal-name"><a href="https://searchpal.com" target="_blank" rel="external noopener noreferrer">SearchPal</a></td>
-				<td id="searchpal-since">2001</td>
-				<td id="searchpal-type">For-Profit</td>
-				<td id="searchpal-jurisdiction">USA</td>
-				<td id="searchpal-ssllabs" class="b-rating"><a href="https://www.ssllabs.com/ssltest/analyze.html?d=searchpal.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="b-rating text-rating">B<br /></div></a></td>
-				<td id="searchpal-observatory" class="f-rating"><a href="https://observatory.mozilla.org/analyze/searchpal.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">F<br /></div></a></td>
-				<td id="searchpal-ip-logging" class="f-rating"><a href="https://www.searchpal.com/blog/privacy-policy/" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">Y<br /></div></a></td>
-				<td id="searchpal-3rd-party-trackers" class="f-rating text-rating">Y</td>
-				<td id="searchpal-onion-service" class="f-rating text-rating">N</td>
-				<td id="searchpal-post-request" class="f-rating text-rating">N</td>
-				<td id="searchpal-dnssec" class="f-rating"><a href="https://en.internet.nl/site/searchpal.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">N<br /></div></a></td>
-				<td id="searchpal-ipv6" class="f-rating"><a href="https://en.internet.nl/site/searchpal.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">N<br /></div></a></td>
-				<td id="searchpal-hsts" class="f-rating"><a href="https://en.internet.nl/site/searchpal.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">N<br /></div></a></td>
-				<td id="searchpal-disabled-js" class="f-rating text-rating">N</td>
-				<td id="searchpal-onion-captchas" class="a-rating text-rating">N</td>
-				<td id="searchpal-filters-adult-content" class="f-rating text-rating">Y</td>
-				<td id="searchpal-proxy-service" class="f-rating text-rating">N</td>
-				<td id="searchpal-clearnet-url">https://searchpal.com/Web/search?q=%s</td>
-			</tr>
-			<tr>
 				<td id="baidu-name"><a href="https://www.baidu.com" target="_blank" rel="external noopener noreferrer">Baidu</a></td>
 				<td id="baidu-since">2000</td>
 				<td id="baidu-type">For-Profit</td>
 				<td id="baidu-jurisdiction">China</td>
 				<td id="baidu-ssllabs" class="c-rating"><a href="https://www.ssllabs.com/ssltest/analyze.html?d=baidu.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="c-rating text-rating">C<br /></div></a></td>
 				<td id="baidu-observatory" class="f-rating"><a href="https://observatory.mozilla.org/analyze/baidu.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">F<br /></div></a></td>
-				<td id="baidu-ip-logging" class="f-rating"><a href="https://web.archive.org/web/20191206051256/http://usa.baidu.com/privacy/" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">Y<br /></div></a></td>
+				<td id="baidu-ip-logging" class="f-rating"><a href="https://usa.baidu.com/privacy/" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">Y<br /></div></a></td>
+				<td id="baidu-ip-sharing" class="f-rating text-rating">Y</td>
 				<td id="baidu-3rd-party-trackers" class="f-rating text-rating">Y</td>
 				<td id="baidu-onion-service" class="f-rating text-rating">N</td>
 				<td id="baidu-post-request" class="f-rating text-rating">N</td>
@@ -1162,7 +1175,8 @@
 				<td id="lukol-jurisdiction">USA?</td>
 				<td id="lukol-ssllabs" class="b-rating"><a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.lukol.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="b-rating text-rating">B<br /></div></a></td>
 				<td id="lukol-observatory" class="f-rating"><a href="https://observatory.mozilla.org/analyze/www.lukol.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">F<br /></div></a></td>
-				<td id="lukol-ip-logging" class="f-rating"><a href="https://www.lukol.com/privacy.php" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">Y<br /></div></a></td>
+				<td id="lukol-ip-logging" class="a-rating"><a href="https://www.lukol.com/privacy.php" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="a-rating text-rating">N<br /></div></a></td>
+				<td id="lukol-ip-sharing" class="f-rating text-rating">Y</td>
 				<td id="lukol-3rd-party-trackers" class="f-rating text-rating">Y</td>
 				<td id="lukol-onion-service" class="f-rating text-rating">N</td>
 				<td id="lukol-post-request" class="f-rating text-rating">N</td>
@@ -1182,7 +1196,8 @@
 				<td id="searchencrypt-jurisdiction">China</td>
 				<td id="searchencrypt-ssllabs" class="b-rating"><a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.searchencrypt.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="b-rating text-rating">B<br /></div></a></td>
 				<td id="searchencrypt-observatory" class="d-rating"><a href="https://observatory.mozilla.org/analyze/www.searchencrypt.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="d-rating text-rating">D<br /></div></a></td>
-				<td id="searchencrypt-ip-logging" class="f-rating"><a href="https://www.searchencrypt.com/about/privacy-policy" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">Y<br /></div></a></td>
+				<td id="searchencrypt-ip-logging" class="a-rating"><a href="https://www.searchencrypt.com/about/privacy-policy" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="a-rating text-rating">N<br /></div></a></td>
+				<td id="searchencrypt-ip-sharing" class="a-rating text-rating">Y</td>
 				<td id="searchencrypt-3rd-party-trackers" class="a-rating text-rating">N</td>
 				<td id="searchencrypt-onion-service" class="f-rating text-rating">N</td>
 				<td id="searchencrypt-post-request" class="a-rating text-rating">Y</td>
@@ -1202,7 +1217,8 @@
 				<td id="discretesearch-jurisdiction">China</td>
 				<td id="discretesearch-ssllabs" class="b-rating"><a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.discretesearch.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="b-rating text-rating">B<br /></div></a></td>
 				<td id="discretesearch-observatory" class="d-rating"><a href="https://observatory.mozilla.org/analyze/www.discretesearch.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="d-rating text-rating">D<br /></div></a></td>
-				<td id="discretesearch-ip-logging" class="f-rating"><a href="https://www.discretesearch.com/legal/siteprivacy" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">Y<br /></div></a></td>
+				<td id="discretesearch-ip-logging" class="a-rating"><a href="https://www.discretesearch.com/legal/siteprivacy" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="a-rating text-rating">N<br /></div></a></td>
+				<td id="discretesearch-ip-sharing" class="a-rating text-rating">N</td>
 				<td id="discretesearch-3rd-party-trackers" class="a-rating text-rating">N</td>
 				<td id="discretesearch-onion-service" class="f-rating text-rating">N</td>
 				<td id="discretesearch-post-request" class="a-rating text-rating">Y</td>
@@ -1214,26 +1230,6 @@
 				<td id="discretesearch-filters-adult-content" class="a-rating text-rating">N</td>
 				<td id="discretesearch-proxy-service" class="f-rating text-rating">N</td>
 				<td id="discretesearch-clearnet-url">https://www.discretesearch.com/?q=%s</td>
-			</tr>
-			<tr>
-				<td id="ghostpeek-name"><a href="https://web.archive.org/web/20200104200210/https://medium.com/against-surveillance-capitalism/how-a-chinese-company-built-a-250-million-search-hijacking-empire-35f957566852" target="_blank" rel="external noopener noreferrer">Ghost Peek</a></td>
-				<td id="ghostpeek-since">2019</td>
-				<td id="ghostpeek-type">For-Profit</td>
-				<td id="ghostpeek-jurisdiction">China</td>
-				<td id="ghostpeek-ssllabs" class="b-rating"><a href="https://www.ssllabs.com/ssltest/analyze.html?d=www.ghostpeek.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="b-rating text-rating">B<br /></div></a></td>
-				<td id="ghostpeek-observatory" class="d-rating"><a href="https://observatory.mozilla.org/analyze/www.ghostpeek.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="d-rating text-rating">D<br /></div></a></td>
-				<td id="ghostpeek-ip-logging" class="f-rating"><a href="https://www.ghostpeek.com/legal/siteprivacy" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">Y<br /></div></a></td>
-				<td id="ghostpeek-3rd-party-trackers" class="a-rating text-rating">N</td>
-				<td id="ghostpeek-onion-service" class="f-rating text-rating">N</td>
-				<td id="ghostpeek-post-request" class="a-rating text-rating">Y</td>
-				<td id="ghostpeek-dnssec" class="f-rating"><a href="https://en.internet.nl/site/www.ghostpeek.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">N<br /></div></a></td>
-				<td id="ghostpeek-ipv6" class="f-rating"><a href="https://en.internet.nl/site/www.ghostpeek.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">N<br /></div></a></td>
-				<td id="ghostpeek-hsts" class="f-rating"><a href="https://en.internet.nl/site/www.ghostpeek.com" target="_blank" rel="external noopener noreferrer" class="text-rating"><div class="f-rating text-rating">N<br /></div></a></td>
-				<td id="ghostpeek-disabled-js" class="f-rating text-rating">N</td>
-				<td id="ghostpeek-onion-captchas" class="a-rating text-rating">N</td>
-				<td id="ghostpeek-filters-adult-content" class="a-rating text-rating">N</td>
-				<td id="ghostpeek-proxy-service" class="f-rating text-rating">N</td>
-				<td id="ghostpeek-clearnet-url">https://www.ghostpeek.com/?q=%s</td>
 			</tr>
 		</tbody>
 	</table>
